@@ -1,0 +1,16 @@
+.navbar{
+    background-color: black;
+    height: 60px;
+    color:red;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo{
+    height: 40px;
+    width: 40px;
+    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/178/954/desktop-wallpaper-clipart-hospital-blue-hospital-logo.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}

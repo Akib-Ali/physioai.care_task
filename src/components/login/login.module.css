@@ -3,7 +3,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    color:white
+    color:pink
   }
   
   .container{
@@ -13,7 +13,7 @@
     display: flex;
   }
 
-  .login-img{
+  .loginimg{
     height: 100%;
     width: 60%;
     border:1px solid green;
@@ -31,7 +31,7 @@
     
   }
 
-  .login-contain{
+  .logincontain{
     width: 70%;
     /* border: 1px solid red; */
     height: 500px;
@@ -49,7 +49,7 @@
     margin: auto;
   }
 
-  .sai-text{
+  .saitext{
     text-align: center;
 }
 
@@ -61,6 +61,7 @@
     border: none;
     padding: 10px;
     color: black;
+    border-radius: 3px;
   }
 
   button{

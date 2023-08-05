@@ -1,16 +1,16 @@
-import "./login.css"
+import Style from "./login.module.css"
 const Login=()=>{
 
     return(
         <>
-         <div className="container">
-            <div className="login-img"></div>
+         <div className={Style.container}>
+            <div className={Style.loginimg}></div>
            
-            <div className="login">
-            <div className="login-contain">
-                <div className="logo"></div>
+            <div className={Style.login}>
+            <div className={Style.logincontain}>
+                <div className={Style.logo}></div>
                  
-                 <div className="sai-text">
+                 <div className={Style.saitext}>
                     <h1>SAI</h1>
                     <h2>NCSSR</h2>
                     <p>Welcome Back !</p>
