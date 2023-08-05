@@ -75,5 +75,13 @@
     margin-top: 20px;
     margin-right: 10px;
     border-radius: 15px;
-    border:none
+    border:none;
+    cursor: pointer;
   }
+
+  /* Custom style to show toast in a single line */
+.toast-container .toast {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

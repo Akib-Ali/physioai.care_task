@@ -14,3 +14,7 @@
     background-size: cover;
     border-radius: 50%;
 }
+
+.logOut{
+    cursor:pointer
+}
